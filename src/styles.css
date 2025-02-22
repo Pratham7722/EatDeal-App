@@ -1,0 +1,183 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(131, 131, 243);
+    padding: 15px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+  }
+  
+  .btn {
+    background: white;
+    color: black;
+    padding: 8px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn:hover{
+    color: blue;
+  }
+
+  /* Forms */
+  .auth-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+  }
+  
+  .auth-container h2 {
+    margin-bottom: 15px;
+  }
+  
+  .auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-container button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(131, 131, 243);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-container {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #1a1a1a;
+  }
+  .home-container > p{
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    opacity: 0.9;
+  }
+  .menu-section {
+    margin-top: 30px;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  .menu-section h2 {
+    border-bottom: 2px solid rgb(131, 131, 243);
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .menu-card {
+    background: #1a1a1a;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(131, 131, 243);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .menu-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .menu-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .menu-options select {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .add-to-cart {
+    background: rgb(131, 131, 243);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-to-cart:hover {
+    background: darkrgb(131, 131, 243);
+  }
+  
+  .search-box{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 5px;
+    border-radius: 25px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .search-btn {
+    background: rgb(131, 131, 243);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .search-btn:hover {
+    background: darkrgb(131, 131, 243);
+  }
